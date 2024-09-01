@@ -1,0 +1,33 @@
+Technical Design Document Template
+
+---
+
+Name: Weslee Williams
+Date Created: 8/30/24
+
+---
+
+Program Description:
+This program will interact with the user to sell them tickets in fun manor. The theater has a total of 20 tickets and it sells all 20 to a plethora of groups.
+It's purpose is to do what I just said without have to factor for human error in selling the 20 tickets. This allows for the ticket booth selling to be automated
+and the rest of the employees can work in other stations. Taking some of the stress off the general cast of workers throughout the shift.
+
+---
+
+Logical Steps:
+1.) Set up a Function: The "sell_tickets" function abbreviates the logic for selling tickets.
+2.) Input: The program uses 'input()' to get the number of tickets a user wants to buy.
+3.) Output: The program uses "print()' to inform the buyer about the overall status of the purchase. Meaning if they can even buy for that amount of people and remaing tickets.
+4.) Accumulator: 'tickets_sold' and 'total_buyers' are accumulators used to keep track of the number of tickets sold and the toal number of buyers. Each broken up into their 
+	own accumulator.
+5.) if Statement: 'if' statements were used to validate the number of requested tickets and ensure there was enough for the homies buying it.
+6.) Loop: Finally, I used a 'while' loop as it continues running until all tickets are sold.
+
+*if I am being completely honest I think I combined the Logical Steps and Functions parts. Which is incredibly unfortunate. These are also the steps you told us to use
+	so this could be completely wrong and for that im sorry."
+
+---
+
+Name: Weslee Williams
+Date Created: 8/30/24
+
