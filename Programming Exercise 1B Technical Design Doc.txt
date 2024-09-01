@@ -1,0 +1,35 @@
+#Weslee Williams
+#9/1/24
+
+---
+
+The goal of this program is to create a magic 8-ball that will respond to a user's questions. Honestly, I think it went well. If this was not a project
+and I knew I wouldn't be judged there would be more inappropriate responses because that would be incredibly funny.
+
+*I will also say I don't know if the responses are how you want them and I could see points being taken off for that. I also do not know if you care for my 
+	self critiques.*
+
+---
+
+How it works!
+
+1.) So, to start I created a response list for my beautiful magic 8-ball that will be used to answer a user's questions.
+
+2.) Then, the program opens the file using 'load_responses' and reads all lines. 
+
+3.) I ran the list of responses before making the main program to actually create a txt. file
+
+4.) Finally, when the user is done then can type 'quit' and the program kills itself. rip program.
+
+1.5) we import random so the 8ball randomly takes an answer from the txt. file created.
+
+---
+
+https://github.com/PandaPanm/COP2373 
+
+*I forgot to do this last time on 1A. Forgive me, Master. (bows for forgiveness)*
+
+---
+
+#Weslee Williams
+#9/1/24
