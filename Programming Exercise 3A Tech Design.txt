@@ -1,0 +1,30 @@
+Technical Design Document for Monthly Expenses Program
+Weslee Williams
+
+1. Overview:
+   This program prompts the user to enter their monthly expenses, including the type of expense and the amount. It calculates the total expenses, identifies the highest and lowest expenses, and displays this information.
+
+2. Components:
+   - Functions:
+     a. get_expenses(): Prompts user for expense details and returns a list of tuples containing (expense type, amount).
+     b. calculate_total(expenses): Takes a list of expenses and returns the total amount using the reduce method.
+     c. find_highest(expenses): Returns the highest expense using the max function.
+     d. find_lowest(expenses): Returns the lowest expense using the min function.
+     e. main(): Coordinates the program flow, collecting expenses and displaying results.
+
+3. Input:
+   - User is prompted to enter the type and amount of each expense.
+   - The user can type 'done' to finish entering expenses.
+
+4. Output:
+   - Total amount of expenses.
+   - Highest expense type and amount.
+   - Lowest expense type and amount.
+
+5. Error Handling:
+   - The program checks if any expenses are entered and provides a message if none are.
+	- Program does NOT like when you put a "$" and I am blanking on how to fix that. Other than that everything was chill.
+
+6. Dependencies:
+   - The program uses Python's built-in functions and the functools module for the reduce function.
+
