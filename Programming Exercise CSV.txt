@@ -1,0 +1,21 @@
+1. Overview
+This project involves two programs for managing and displaying student grades. The first program allows an instructor to enter student names and exam grades, storing the information in a CSV file (grades.csv). The second program reads the CSV file and displays its contents in a neatly formatted table.
+
+2. Program 1: write_grades.py
+Purpose: To collect and store student data (name and exam grades) in a CSV file.
+Inputs:Number of students. First name, last name, and three exam grades for each student.
+Output: A CSV file named grades.csv with headers: "First Name", "Last Name", "Exam 1", "Exam 2", "Exam 3".
+
+3. Program 2: read_grades.py
+Purpose: To read the data from grades.csv and display it in a tabular format.
+Output: Displays the contents of grades.csv in a formatted table on the console.
+Implementation Details:
+Uses Python’s csv module to read the data from grades.csv.
+A with statement is used for safe file handling.
+Formats the output to display each student's data in aligned columns.
+
+4. Execution
+To run the programs:
+
+Run write_grades.py to create the grades.csv file and enter student data.
+Run read_grades.py to read and display the contents of grades.csv.
