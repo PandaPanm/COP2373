@@ -1,0 +1,26 @@
+Wes Williams 9A Tech Design Document
+
+1. Overview
+The BankAcct class simulates a basic bank account system with methods to handle deposits, withdrawals, interest rate adjustment, and interest calculation over a specified period. It includes a test function to verify its functionality.
+
+2. Class Definition
+Class Name: BankAcct
+Attributes:
+name: The name of the account holder.
+account_number: The account number to uniquely identify each account.
+amount: The current balance of the account.
+interest_rate: Annual interest rate applied to the balance.
+3. Methods
+__init__(self, name, account_number, amount=0.0, interest_rate=0.01): Constructor initializes account holder information, balance, and interest rate.
+set_interest_rate(self, new_rate): Sets a new interest rate if it's non-negative.
+deposit(self, amount): Adds a positive amount to the current balance.
+withdraw(self, amount): Subtracts an amount if it's within the available balance.
+get_balance(self): Returns the current balance of the account.
+calculate_interest(self, days): Calculates and returns interest over a specified number of days based on the current balance and interest rate.
+__str__(self): Displays formatted account information including name, account number, balance, and interest rate.
+4. Test Function
+The test_bank_acct function creates an instance of BankAcct, tests deposit, withdrawal, balance retrieval, interest rate adjustment, and interest calculation for 30 days. It prints results to validate each method's behavior.
+
+5. Execution
+To run the test, execute bank_account.py. The output will showcase the account details and the results of each tested method.
+
