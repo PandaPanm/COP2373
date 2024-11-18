@@ -1,0 +1,31 @@
+Technical Design Document
+Wes Williams
+
+Overview
+   - This Python program simulates a simple poker game where the user is dealt a 5-card hand. The user can then choose which cards to replace (if any) and draw new cards from the deck.
+   
+Classes and Objects
+   - Card Class
+     - Attributes:
+       - `rank`: The rank of the card (2-10, Jack, Queen, King, Ace).
+       - `suit`: The suit of the card (Hearts, Diamonds, Clubs, Spades).
+     - Methods:
+       - `__str__`: Returns a string representation of the card (e.g., "Ace of Hearts").
+   
+   - Deck Class
+     - Attributes:
+       - `cards`: A list of all 52 cards in the deck.
+       - `suits`: A list of the four suits (Hearts, Diamonds, Clubs, Spades).
+       - `ranks`: A list of the 13 possible ranks (2-10, Jack, Queen, King, Ace).
+     - Methods:
+       - `__init__`: Initializes the deck with all 52 cards.
+       - `_create_deck`: Creates a deck of 52 cards by combining all ranks and suits.
+       - `shuffle`: Shuffles the deck of cards.
+       - `deal`: Deals a specified number of cards from the deck.
+   
+Program Flow
+   - The deck is created and shuffled.
+   - Five cards are dealt to the player and displayed.
+   - The player is asked to input the numbers of the cards they wish to replace.
+   - The chosen cards are replaced with new cards from the deck.
+   - The final hand is displayed after the draw.
