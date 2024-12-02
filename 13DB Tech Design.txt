@@ -1,0 +1,36 @@
+Technical Design Document - Wes Williams
+
+1. Overview
+This program creates a database named `population_YI.db` to simulate and visualize population growth for 10 cities in Florida.
+
+2. Database Design
+- Database: `population_YI.db`
+- Table: `population`
+  - Fields: `city` (TEXT), `year` (INTEGER), `population` (INTEGER)
+
+3. Program Functions
+  A. `setup_database()`: 
+   - Creates the database and initializes the `population` table.
+   - Inserts population data for 2023 for 10 cities in Florida: Pensacola, Deltona, Naples, Cape Coral, Palm Bay, Hollywood, Kissimmee, Clearwater, Port St. Lucie, West Palm Beach.
+
+  B. `simulate_population_growth(db_name)`:
+   - Simulates a 2% yearly population growth for 20 years (2024–2043) for each city.
+   - Inserts this data into the database.
+
+  C. `plot_population_growth(db_name, city)`:
+   - Fetches population data for the selected city.
+   - Visualizes growth using Matplotlib.
+
+  D. `main()`:
+   - Initializes the database and growth simulation.
+   - Allows the user to select a city and view its growth until exiting.
+
+4. Tools Used
+- Python
+- SQLite3 for database management.
+- Matplotlib for data visualization.
+
+5. Testing
+- Verified database creation and data insertion.
+- Tested growth simulation for accuracy.
+- Confirmed accurate and clear visualization for each city.
